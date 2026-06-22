@@ -7,5 +7,6 @@
 
 # Ejecucion
 # 1. Crear bases de datos
-"CREATE DATABASE db_bibliotech_usuario_dev;"
-"CREATE DATABASE db_bibliotech_usuario_test;"
+> "CREATE DATABASE db_bibliotech_usuario_dev;"
+> 
+> "CREATE DATABASE db_bibliotech_usuario_test;"
