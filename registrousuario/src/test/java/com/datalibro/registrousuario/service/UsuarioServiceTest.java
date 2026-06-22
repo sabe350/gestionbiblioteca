@@ -14,7 +14,6 @@ import org.springframework.test.context.bean.override.mockito.MockitoBean;
 import java.util.List;
 import java.util.Optional;
 
-import javax.sound.sampled.UnsupportedAudioFileException;
 
 @SpringBootTest
 public class UsuarioServiceTest {
