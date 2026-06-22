@@ -1,6 +1,6 @@
 # gestionbiblioteca
 
-#Requerimientos
+# Requerimientos
 - Java 17
 - Laragon
 - MySQL configurado al puerto 3308
