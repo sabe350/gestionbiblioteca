@@ -1,4 +1,4 @@
-USE db_bibliotech_libro;
+USE db_bibliotech_libro_dev;
 CREATE TABLE `libro` (
 	`codigo` INT NOT NULL,
 	`autor` VARCHAR(255) NOT NULL COLLATE 'utf8mb4_0900_ai_ci',
