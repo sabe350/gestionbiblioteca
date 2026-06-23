@@ -1,4 +1,4 @@
-USE db_bibliotech_pedidos;
+USE db_bibliotech_pedidos_dev;
 DELIMITER //
 
 CREATE TRIGGER despues_insert_pedido
