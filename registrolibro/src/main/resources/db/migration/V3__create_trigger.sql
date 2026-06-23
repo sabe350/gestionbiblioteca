@@ -1,4 +1,4 @@
-USE db_bibliotech_libro;
+USE db_bibliotech_libro_dev;
 DELIMITER //
 
 CREATE TRIGGER despues_insert_libro
