@@ -1,4 +1,4 @@
-USE db_bibliotech_usuario;
+USE db_bibliotech_usuario_dev;
 CREATE TABLE `usuario_backup` (
 	`rut` INT NOT NULL,
 	`apellido` VARCHAR(255) NOT NULL COLLATE 'utf8mb4_0900_ai_ci',
