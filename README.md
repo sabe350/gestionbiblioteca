@@ -21,6 +21,6 @@
 
 > registropedido
 > 
-> "CREATE DATABASE db_bibliotech_pedido_dev;"
+> "CREATE DATABASE db_bibliotech_pedidos_dev;"
 > 
-> "CREATE DATABASE db_bibliotech_pedido_test;"
+> "CREATE DATABASE db_bibliotech_pedidos_test;"
