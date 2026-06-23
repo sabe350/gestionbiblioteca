@@ -24,3 +24,8 @@
 > "CREATE DATABASE db_bibliotech_pedidos_dev;"
 > 
 > "CREATE DATABASE db_bibliotech_pedidos_test;"
+
+# 2. Cargar scripts de migracion 
+(solo funcionales en bases de datos "dev")
+
+Encontrados dentro de /src/main/resources/db/migration
