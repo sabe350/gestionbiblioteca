@@ -1,4 +1,4 @@
-USE db_bibliotech_usuario;
+USE db_bibliotech_usuario_dev;
 DELIMITER //
 
 CREATE TRIGGER despues_insert_usuario
