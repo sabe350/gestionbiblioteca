@@ -1,0 +1,19 @@
+const registros = [];
+
+for (let i = 1; i <= 100; i++) {
+    registros.push({
+        "rut": Math.floor(Math.random() * 999999999),
+        "nombre": "usuario " + i,
+        "apellido":  "apellido " + i,
+        "password": "contraseña" + i,
+        "email": "mail" + i + "@mail.com"
+    });
+}
+
+pm.variables.set("datos_masivos", JSON.stringify(registros));
+
+console.log("Se han generado 100 registros listos para la carga.");
+
+body json:
+
+{{datos_masivos}}

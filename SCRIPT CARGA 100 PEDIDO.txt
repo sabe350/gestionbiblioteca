@@ -1,0 +1,20 @@
+const registros = [];
+
+for (let i = 1; i <= 100; i++) {
+    registros.push({
+        "codigo": Math.floor(Math.random() * 99999),
+        "titulo": "titulo " + i,
+        "nombre": "usuario " + i,
+        "fechaini": Math.floor(Math.random() * 31) + 1 + "-" + Math.floor(Math.random() * 12 + 1) + "-2026",
+        "fechadevo": Math.floor(Math.random() * 31) + 1 + "-" + Math.floor(Math.random() * 12 + 1) + "-2026",
+        "rut": Math.floor(Math.random() * 999999999)
+    });
+}
+
+pm.variables.set("datos_masivos", JSON.stringify(registros));
+
+console.log("Se han generado 100 registros listos para la carga.");
+
+body json:
+
+{{datos_masivos}}
