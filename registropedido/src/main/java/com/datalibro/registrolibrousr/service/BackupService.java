@@ -7,7 +7,7 @@ public class BackupService {
 
     public void createBackup(){
         String dumpPath = "C:\\laragon\\bin\\mysql\\mysql-8.4.3-winx64\\bin\\mysqldump.exe";
-        String dbName = "db_bibliotech_pedidos";
+        String dbName = "db_bibliotech_pedidos_dev";
         String dbUser = "root";
         String dbPass = "";
         String savePath = "C:\\backups\\backup_pedido_services.sql";
